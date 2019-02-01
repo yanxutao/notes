@@ -1,0 +1,15 @@
+HBase: 1 HMaster, n HRegionServer
+HRegionServer: 1 HLog, n HRegion
+HRegion: n Store/HColumnFamily
+Store: 1 MemStore, n StoreFile/HFile
+StoreFile: immutable
+
+region 
+row key: start <-> end
+split <-> merge
+
+{row key, column family, column qualifier, timestamp} -> value
+
+operation: put <-> (insert, update), delete <-> delete, (get, scan) <-> select
+
+SQL interface: Phoenix 
