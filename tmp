@@ -1,0 +1,20 @@
+semantic logical physical
+
+计算任务的描述 SQL -> MapReduce
+MapReduce wrapper: Pig, Hive, Spark SQL
+
+执行: MapReduce(Hadoop, Spark)
+
+数据 Hive Table -> HDFS 
+
+资源管理，作业调度: Yarn, Mesos
+
+fault tolerance
+storage: replication
+computing: ping, reexecute
+
+kv pair -> map(process) -> kv pair -> reduce(merge) -> kv pair
+
+parallelization, fault-tolerance, data distribution, load balancing
+
+计算任务：描述，编译，调度，执行

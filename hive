@@ -1,0 +1,6 @@
+
+compiler
+parser: query string -> parse tree representation
+semantic analyzer: parser tree -> block-based internal query representation
+logical plan generator: internal query representation -> logical plan
+optimizer: 
