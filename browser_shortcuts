@@ -1,0 +1,177 @@
+* 窗口
+
+新建窗口： Ctrl+N
+新建隐私浏览窗口： Ctrl+Shift+P
+关闭窗口： Ctrl+Shift+W 或 Alt+F4
+
+
+* 标签
+
+新建标签： Ctrl+T
+关闭标签： Ctrl+W 或 Ctrl+F4
+撤销关闭标签页： Ctrl+Shift+T
+
+后一个标签页： Ctrl+Tab 或 Ctrl+PageDown
+前一个标签页： Ctrl+Shift+Tab 或 Ctrl+PageUp
+选择标签页 [1 to 8]： Alt+[1 到 8]
+选择最后标签页： Alt+9
+		 
+将当前标签页左移： Ctrl + Shift + Page Up     
+将当前标签页右移： Ctrl + Shift + Page Down
+
+标签页群组视图： Ctrl + Shift + E
+关闭标签页群组视图： Esc
+
+
+* 页面
+
+全屏： F11
+
+下翻当前页面： 空格键 或 PageDown
+上翻当前页面： Shift+空格键
+
+移动到页面开头： Ctrl+Home 或 PageUp
+移动到页面结尾： Ctrl+End 或 PageDown
+
+到页面底部： End
+到页面顶部： Home
+
+移到下一帧： F6
+移到上一帧： Shift+F6
+
+页面另存为： Ctrl+S
+显示页面信息：Ctrl+I
+打印： Ctrl+P
+
+放大文字： Ctrl++
+缩小文字： Ctrl+-
+恢复文字大小： Ctrl+0
+
+选择地址条： Alt+D 或 F6 或 Ctrl+L
+选择搜索框： Ctrl+J
+
+补全 .com 地址： Ctrl+Enter
+补全 .net 地址： Shift+Enter
+补全 .org 地址： Ctrl+Shift+Enter
+
+
+* 搜索
+
+页内查找： Ctrl+F
+再次查找： F3
+查找： Shift+F3
+
+查找链接： '
+查找文本： /
+
+
+* 导航
+
+后退： Alt+左方向键 或 Backspace
+前进： Alt+右方向键 或 Shift+Backspace
+
+首页： Alt+Home
+
+打开文件： Ctrl+O
+
+重新载入： F5 或 Ctrl+R
+重新载入 (忽略缓存)： Ctrl+F5 或 Ctrl+Shift+R
+
+停止： Esc
+
+
+* 编辑
+
+全选： Ctrl+A
+复制： Ctrl+C
+粘贴： Ctrl+V
+剪切： Ctrl+X
+删除： Del
+撤消： Ctrl+Z
+
+重做： Ctrl+Y 或 Ctrl+Shift+Z
+
+
+* 书签
+
+添加当前标签为书签： Ctrl+D
+打开书签： Ctrl+B
+
+
+* 历史
+
+历史侧栏： Ctrl + H
+历史窗口： Ctrl + Shift + H
+清除最近历史记录： Ctrl + Shift + Del
+
+
+* 鼠标
+
+前进： Shift+Scroll up
+后退： Shift+Scroll down
+
+减小文字大小： Ctrl+Scroll up
+增大文字大小： Ctrl+Scroll down
+
+新建标签页： 在标签页栏双击鼠标
+关闭标签页： 在标签上按鼠标中键
+
+在后台打开标签页： Ctrl+Left-click 或 点击鼠标中键
+在前台打开标签页： Shift+Ctrl+Left-click 或 Shift+点击鼠标中键
+
+在新窗口打开： Shift+Left-click
+
+
+* PDF
+
+下一页     n 或 j 或 →
+上一个     p 或 k 或 ←
+
+放大     Ctrl + +
+缩小     Ctrl + -
+原始大小    Ctrl + 0
+
+顺时针旋转文档     r
+逆时针旋转文档     Shift + r
+
+
+* 视频
+
+播放/暂停 Space
+
+提高音量     ↑
+降低音量     ↓
+取消静音     Ctrl + ↑
+静音     Ctrl + ↓
+
+快退15秒     ←
+快进15秒     →
+快退10%     Ctrl + ←
+快进10%     Ctrl + →
+
+跳至开头     Home
+跳至结尾     End
+
+
+* 开发者工具
+
+附加组件     Ctrl + Shift + A
+切换开发者工具     F12  Ctrl + Shift + I
+Web 控制台     Ctrl + Shift + K
+查看器     Ctrl + Shift + C
+调试器     Ctrl + Shift + S
+样式编辑器     Shift + F7
+分析器     Shift + F5
+网络     Ctrl + Shift + Q
+开发者工具栏     Shift + F2
+响应式设计视图     Ctrl + Shift + M
+代码片段速记器     Shift + F4
+页面源码     Ctrl + U
+浏览器控制台     Ctrl + Shift + J
+
+查看部分源代码
+用鼠标选中要查看源代码的部分，然后点击鼠标右键选择“查看选中部分源代码”，这时就会弹出一个显示源代码的窗口，里面选中的部分就是网页中选中部分的源代码。
+
+
+* 提高Firefox的浏览速度
+在地址栏里输入about:config，打开Firefox的设置。将network.http.pipelining和network.http.proxy.pipelining都设置为true，将network.http.pipelining.maxrequests设为8或更大，之后速度就将大有改观。
