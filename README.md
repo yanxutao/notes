@@ -1,1 +1,1 @@
-记录一些杂七杂八的东西
+record something
