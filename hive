@@ -4,3 +4,18 @@ parser: query string -> parse tree representation
 semantic analyzer: parser tree -> block-based internal query representation
 logical plan generator: internal query representation -> logical plan
 optimizer: 
+
+
+https://blog.csdn.net/helloxiaozhe/article/details/80363893
+https://blog.csdn.net/u011712163/article/details/89887653
+
+查看表信息
+创建信息：show create table table_name
+字段信息：desc table_name
+详细信息：desc formatted table_name
+分区信息：show partitions table_name
+
+查看表容量大小
+location="/user/hive/warehouse/db_name/table_name"
+hadoop fs -du ${location} | awk '{ SUM += $1 } END { print SUM / (1024 * 1024 * 1024) }'
+dfs -du ${location} | awk '{ SUM += $1 } END { print SUM / (1024 * 1024 * 1024) }'
